@@ -1,0 +1,57 @@
+.row .col {
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+
+}
+path {
+	z-index: -1
+}
+nav {
+	background: transparent;
+	
+}
+.brand-logo {
+	font-style: italic;
+	font-weight: 700;
+	
+}
+
+.brand-logo:hover {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 2s ease-in-out;
+	animation: curving 6s linear infinite;
+}
+
+@keyframes curving {
+	0% {
+		left: 0;
+		top: 0;
+	}
+	100% {
+		left: 5%;
+		top: 0;
+	}
+}
+#nav-mobile li a {
+	color:  #000;
+	font-size: 1.5rem;
+	font-weight: 500;
+
+
+}
+
+#nav-mobile li a:hover {
+
+	background:#000;
+	color: #fff;
+	border-radius: 12px;
+	transition: all 1s ease-in-out;
+}
+
+
+.btn-large {
+	margin-left: 48%;
+}
